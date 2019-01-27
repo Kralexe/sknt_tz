@@ -4,8 +4,6 @@ $string = file_get_contents("http://sknt.ru/job/frontend/data.json");
 $json_a = json_decode($string, true);
 
 echo "<head>
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-
 <style>
 * {
   box-sizing: border-box;

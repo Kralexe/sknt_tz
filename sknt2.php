@@ -9,7 +9,6 @@ $mil = $json_a["tarifs"][$pieces[0]]['tarifs'][$pieces[1]][new_payday];
 $seconds = $mil/1000+1800;
 
 echo "<head>
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 <style>
 * {
   box-sizing: border-box;
